@@ -17,15 +17,6 @@ import { BiEditAlt } from 'react-icons/bi';
 import { RiDeleteBinLine } from 'react-icons/ri';
 
 const Campaign = () => {
-
-    const getCampaign = async () => {
-        const res = await fetch("http://localhost:3002/database/getCampaign", {
-            method: "GET"
-        });
-
-        console.log(res);
-    };
-
     return (
         <Layout>
             <div className="campaign--container">
